@@ -1,6 +1,8 @@
 # Watch-Site
 Restarts IIS websites in the csv config file, if they return anything other than StatusCode 200.
 
+Utilizes WebAdministration Powershell Module for IIS, which requires elevation.
+
 It will create a config csv file the first time it's run. Edit that file and then you can make an elevated scheduled task to run every so often by running powershell.exe -file Watch-Site.ps1.
 
 CSV Settings:
