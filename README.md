@@ -13,6 +13,7 @@ CSV Settings:
 - RestartSite: Wether or not to restart the IIS site if the return code is anything but 200.
 
 Todo:
+- Clean up code.
 - Make an installer switch that creates scheduled task.
 - Make an indexing switch that dumps all sites into csv with CheckURI and RestartSite set to 0.
 - Make a switch to assign csv name.
