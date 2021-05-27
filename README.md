@@ -9,3 +9,8 @@ SiteId: The Id of the IIS site
 URL: This is the URL that will be checked
 CheckURI: Whether or not to check the site
 RestartSite: Wether or not to restart the IIS site if the return code is anything but 200.
+
+Todo:
+- Make an installer switch that creates scheduled task.
+- Make an indexing switch that dumps all sites into csv with CheckURI and RestartSite set to 0.
+- Make a switch to assign csv name.
